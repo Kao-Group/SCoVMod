@@ -1,0 +1,37 @@
+#########################################
+# Configuration file for SCoVMod moveSim
+#########################################
+
+
+### Files
+
+## Commuter network file
+const CNET_FILE = "/Data/COVID/OA_Census_Flows/WF01_Scotland_flow_pairs.csv"
+
+## Population estimates file
+const POP_FILE = "/Data/COVID/OA_Census_Flows/CT_0167_2011_(OA_Population_Breakdown).csv"
+
+## Mobility file
+const MOBILITY_FILE = "/home/chris/Cloud/KaoGroup/COVID/covid-19-modelling/data_prep/Google_Mobility/mobility_scottish_combined_scenario2_lockdown_exit.csv"
+
+## Output location
+const OUT_DIR = "/Data/COVID/moveSim_OA_movements/"
+
+
+### Settings
+
+## Simulation start/end dates
+const START_DATE = Date(2020,2,15)
+const END_DATE = Date(2020,9,1)
+
+## Use mobility data to dampen movements?
+const DAMPEN = true
+
+## Trim 4/5 movements (optimisation)?
+const TRIM = true
+
+## Stochastic simulation of daily moves?
+# (if false then uses expected moves per day)
+const STOCH = true
+
+

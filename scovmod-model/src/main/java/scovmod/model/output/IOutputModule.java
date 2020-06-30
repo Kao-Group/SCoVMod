@@ -1,0 +1,70 @@
+
+package scovmod.model.output;
+
+import java.time.LocalDate;
+
+public interface IOutputModule {
+    public IResult buildResult();
+    public void currentTotalSusceptible(LocalDate date, int totalSusceptible, int location);
+    public void currentTotalExposed(LocalDate date, int totalExposed, int location);
+    public void currentTotalInfectious(LocalDate date, int totalInfectious, int location);
+    public void currentTotalMildInfectious(LocalDate date, int totalInfectious, int location);
+    public void currentTotalSevereInfectious(LocalDate date, int totalInfectious, int location);
+    public void currentTotalHospitalised(LocalDate date, int totalHospitalised, int location);
+    public void currentTotalRecovered(LocalDate date, int totalRecovered, int location);
+    public void currentTotalDead(LocalDate toTimeStepStartDate, int totalDead, int location);
+    public void currentTotalDeadCA(LocalDate toTimeStepStartDate, int totalDead, int location);
+    public void currentSusceptibleYoung(LocalDate date, int totalSusceptible, int location);
+    public void currentExposedYoung(LocalDate date, int totalExposed, int location);
+    public void currentMildInfectiousYoung(LocalDate date, int totalInfectious, int location);
+    public void currentSevereInfectiousYoung(LocalDate date, int totalInfectious, int location);
+    public void currentHospitalisedYoung(LocalDate date, int totalHospitalised, int location);
+    public void currentRecoveredYoung(LocalDate date, int totalRecovered, int location);
+    public void currentDeadYoung(LocalDate date, int totalInfectious, int location);
+    public void currentSusceptibleAdult(LocalDate date, int totalSusceptible, int location);
+    public void currentExposedAdult(LocalDate date, int totalExposed, int location);
+    public void currentMildInfectiousAdult(LocalDate date, int totalInfectious, int location);
+    public void currentSevereInfectiousAdult(LocalDate date, int totalInfectious, int location);
+    public void currentHospitalisedAdult(LocalDate date, int totalHospitalised, int location);
+    public void currentRecoveredAdult(LocalDate date, int totalRecovered, int location);
+    public void currentDeadAdult(LocalDate date, int totalInfectious, int location);
+    public void currentSusceptibleElderly(LocalDate date, int totalSusceptible, int location);
+    public void currentExposedElderly(LocalDate date, int totalExposed, int location);
+    public void currentMildInfectiousElderly(LocalDate date, int totalInfectious, int location);
+    public void currentSevereInfectiousElderly(LocalDate date, int totalInfectious, int location);
+    public void currentHospitalisedElderly(LocalDate date, int totalHospitalised, int location);
+    public void currentRecoveredElderly(LocalDate date, int totalRecovered, int location);
+    public void currentDeadElderly(LocalDate date, int totalInfectious, int location);
+    public void currentPopulation(LocalDate date, int totalPopulation, int location);
+
+    public void currentTotalExposedHB(LocalDate date, int totalExposed, int location);
+    public void currentTotalInfectiousHB(LocalDate date, int totalInfectious, int location);
+    public void currentTotalMildInfectiousHB(LocalDate date, int totalInfectious, int location);
+    public void currentTotalSevereInfectiousHB(LocalDate date, int totalInfectious, int location);
+    public void currentTotalHospitalisedHB(LocalDate date, int totalHospitalised, int location);
+    public void currentTotalRecoveredHB(LocalDate date, int totalRecovered, int location);
+    public void currentTotalDeadHB(LocalDate toTimeStepStartDate, int totalDead, int location);
+    public void currentSusceptibleYoungHB(LocalDate date, int totalSusceptible, int location);
+    public void currentExposedYoungHB(LocalDate date, int totalExposed, int location);
+    public void currentMildInfectiousYoungHB(LocalDate date, int totalInfectious, int location);
+    public void currentSevereInfectiousYoungHB(LocalDate date, int totalInfectious, int location);
+    public void currentHospitalisedYoungHB(LocalDate date, int totalHospitalised, int location);
+    public void currentRecoveredYoungHB(LocalDate date, int totalRecovered, int location);
+    public void currentDeadYoungHB(LocalDate date, int totalInfectious, int location);
+    public void currentSusceptibleAdultHB(LocalDate date, int totalSusceptible, int location);
+    public void currentExposedAdultHB(LocalDate date, int totalExposed, int location);
+    public void currentMildInfectiousAdultHB(LocalDate date, int totalInfectious, int location);
+    public void currentSevereInfectiousAdultHB(LocalDate date, int totalInfectious, int location);
+    public void currentHospitalisedAdultHB(LocalDate date, int totalHospitalised, int location);
+    public void currentRecoveredAdultHB(LocalDate date, int totalRecovered, int location);
+    public void currentDeadAdultHB(LocalDate date, int totalInfectious, int location);
+    public void currentSusceptibleElderlyHB(LocalDate date, int totalSusceptible, int location);
+    public void currentExposedElderlyHB(LocalDate date, int totalExposed, int location);
+    public void currentMildInfectiousElderlyHB(LocalDate date, int totalInfectious, int location);
+    public void currentSevereInfectiousElderlyHB(LocalDate date, int totalInfectious, int location);
+    public void currentHospitalisedElderlyHB(LocalDate date, int totalHospitalised, int location);
+    public void currentRecoveredElderlyHB(LocalDate date, int totalRecovered, int location);
+    public void currentDeadElderlyHB(LocalDate date, int totalInfectious, int location);
+    public void currentPopulationHB(LocalDate date, int totalPopulation, int location);
+    public void currentNumberDZAreasWithDeadPerHealthBoard(LocalDate date, int totalPopulation, int location);
+}

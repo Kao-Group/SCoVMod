@@ -1,0 +1,102 @@
+{
+	"parameters": {
+		"numSeeds": 150.0,
+		"rates": {
+			"sToE_Mild_YoungRate_Day": 0.55,
+			"sToE_Mild_AdultRate_Day": 0.55,
+			"sToE_Mild_ElderlyRate_Day": 0.55,
+			"sToE_Mild_YoungRate_Night": 0.55,
+			"sToE_Mild_AdultRate_Night": 0.55,
+			"sToE_Mild_ElderlyRate_Night": 0.55,
+			"sToE_Severe_YoungRate_Day": 1.0,
+			"sToE_Severe_AdultRate_Day": 1.0,
+			"sToE_Severe_ElderlyRate_Day": 1.0,
+			"sToE_Severe_YoungRate_Night": 1.0,
+			"sToE_Severe_AdultRate_Night": 1.0,
+			"sToE_Severe_ElderlyRate_Night": 1.0,
+			"betaFactorForLockdown": 0.3,
+			"betaYoungMild_night_lockdown": 0.55,
+			"betaAdultMild_night_lockdown": 0.55,
+			"betaElderlyMild_night_lockdown": 0.55,
+			"betaYoungSevere_night_lockdown":1.0,
+			"betaAdultSevere_night_lockdown": 1.0,
+			"betaElderlySevere_night_lockdown": 1.0,
+			"betaYoungMild_day_lockdown": 0.55,
+			"betaAdultMild_day_lockdown": 0.55,
+			"betaElderlyMild_day_lockdown": 0.55,
+			"betaYoungSevere_day_lockdown":1.0,
+			"betaAdultSevere_day_lockdown": 1.0,
+			"betaElderlySevere_day_lockdown": 1.0,
+			"eToMI_YoungRate": 0.333,
+			"eToMI_AdultRate": 0.333,
+			"eToMI_ElderlyRate": 0.333,
+			"eToR_YoungRate": 0.0,
+			"eToR_AdultRate": 0.0,
+			"eToR_ElderlyRate": 0.0,
+			"miToR_YoungRate": 0.235,
+			"miToR_AdultRate": 0.235,
+			"miToR_ElderlyRate": 0.235,
+			"miToSI_YoungRate": 0.196,
+			"miToSI_AdultRate": 0.286,
+			"miToSI_ElderlyRate": 0.286,
+			"siToR_YoungRate": 0.053,
+			"siToR_AdultRate": 0.048,
+			"siToR_ElderlyRate": 0.046,
+			"siToH_YoungRate": 0.25,
+			"siToH_AdultRate": 0.25,
+			"siToH_ElderlyRate": 0.25,
+			"siToD_YoungRate": 0.063,
+			"siToD_AdultRate": 0.063,
+			"siToD_ElderlyRate": 0.063,
+			"hToR_YoungRate": 0.081,
+			"hToR_AdultRate": 0.081,
+			"hToR_ElderlyRate": 0.081,
+			"hToD_YoungRate": 0.103,
+			"hToD_AdultRate": 0.103,
+			"hToD_ElderlyRate": 0.103
+		},
+		"testing": {
+			"covid": {
+				"infectiousSensitivity": 0.786092602305,
+				"specificity": 1.0
+			}
+		},
+		"health": {
+			"deprivationIndex": {
+				"healthModifier": 0.075,
+				"averageHealthIndexPerCouncilArea": 19.36540317,
+				"averageHealthIndexPerCouncilArea_HB": 17.91101963
+
+			}
+		}
+	},
+	"data": {
+		"dir": "/home/thomdoherty/_CODE/SCoVMod-model/data/",
+		"movement": {
+			"dir": "JSON_MOVEMENTS/JSON"
+		},
+		"seeding": {
+			"dir": "SEEDING",
+			"people-start-locations": "population.csv",
+			"infectedSeeds": "infectedSeeds.csv",
+			"spatial-seeding-weights-file": "spatialSeedingGroupAttributes.csv"
+		},
+		"summarystat": {
+			"dir": "SUMMARYSTAT",
+			"area-hb-lookup": "OA_info_for_movement_model.csv"
+		},
+		"health": {
+			"dir": "HEALTH",
+			"healthIndex": "deprivationIndex.csv"
+		}
+	},
+	"configParameters": {
+		"time": {
+			"start-timestep": 36660,
+			"end-timestep-inclusive": 36725,
+            "override-parameters-timestep": 36688,
+			"tau-leap-step": 0.5,
+			"chunkSize": 20
+		}
+	}
+}

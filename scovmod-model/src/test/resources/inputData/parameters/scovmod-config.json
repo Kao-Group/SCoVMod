@@ -1,0 +1,11 @@
+{
+  "configParameters": {
+    "time": {
+      "start-timestep": 0,
+      "end-timestep-inclusive": 56,
+      "override-parameters-timestep": 123,
+      "tau-leap-step": 0.5,
+      "chunkSize": 20
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+    "note" : "Time steps are caculated using the January 1st 1970 epoch date (Java standard)",
+    "time-step" : 15
+}

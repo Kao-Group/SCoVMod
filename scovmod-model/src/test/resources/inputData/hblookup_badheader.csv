@@ -1,0 +1,5 @@
+output_area,super_layer,workplace_zone,local_authority_name,local_authority,health_board_name,health_board,easting,northing,HH_population,WF_population,young_population,working_age_population,old_population
+S00097336,S02000168,S01007538,S34000893,Dumfries and Galloway,S12000006,Dumfries and Galloway,S08000017,280641,556236,75,44,12,48,22
+S00089523,S02000033,S01006688,S34003046,Aberdeen City,S12000033,Grampian,S08000020,392008,808104,101,39,9,47,27
+S00100859,S02000235,S01007887,S34000998,East Ayrshire,S12000008,Ayrshire and Arran,S08000015,249114,626250,75,26,10,49,15
+S00103309,S02000330,S01008423,S34003667,City of Edinburgh,S12000036,Lothian,S08000024,313271,668524,174,79,33,127,43

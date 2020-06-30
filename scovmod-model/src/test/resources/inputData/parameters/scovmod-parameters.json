@@ -1,0 +1,71 @@
+{
+  "parameters": {
+    "numSeeds": 100.0,
+    "rates": {
+      "sToE_Mild_YoungRate_Day": 0.00419749473795,
+      "sToE_Mild_AdultRate_Day": 0.0419749473795,
+      "sToE_Mild_ElderlyRate_Day": 0.0419749473795,
+      "sToE_Mild_YoungRate_Night": 0.00419749473795,
+      "sToE_Mild_AdultRate_Night": 0.00419749473795,
+      "sToE_Mild_ElderlyRate_Night": 0.00419749473795,
+      "sToE_Severe_YoungRate_Day": 0.0419749473795,
+      "sToE_Severe_AdultRate_Day": 0.00419749473795,
+      "sToE_Severe_ElderlyRate_Day": 0.00419749473795,
+      "sToE_Severe_YoungRate_Night": 0.0419749473795,
+      "sToE_Severe_AdultRate_Night": 0.00419749473795,
+      "sToE_Severe_ElderlyRate_Night": 0.0419749473795,
+      "betaFactorForLockdown": 0.5,
+      "betaYoungMild_night_lockdown": 0.55,
+      "betaAdultMild_night_lockdown": 0.55,
+      "betaElderlyMild_night_lockdown": 0.55,
+      "betaYoungSevere_night_lockdown": 1.0,
+      "betaAdultSevere_night_lockdown": 1.0,
+      "betaElderlySevere_night_lockdown": 1.0,
+      "betaYoungMild_day_lockdown": 0.55,
+      "betaAdultMild_day_lockdown": 0.55,
+      "betaElderlyMild_day_lockdown": 0.55,
+      "betaYoungSevere_day_lockdown": 1.0,
+      "betaAdultSevere_day_lockdown": 1.0,
+      "betaElderlySevere_day_lockdown": 1.0,
+      "eToMI_YoungRate": 0.00859118850425,
+      "eToMI_AdultRate": 0.00859118850425,
+      "eToMI_ElderlyRate": 0.00859118850425,
+      "eToR_YoungRate": 0.00859118850425,
+      "eToR_AdultRate": 0.00859118850425,
+      "eToR_ElderlyRate": 0.00859118850425,
+      "miToR_YoungRate": 0.00859118850425,
+      "miToR_AdultRate": 0.00859118850425,
+      "miToR_ElderlyRate": 0.00859118850425,
+      "miToSI_YoungRate": 0.0859118850425,
+      "miToSI_AdultRate": 0.0859118850425,
+      "miToSI_ElderlyRate": 0.0859118850425,
+      "siToR_YoungRate": 0.00859118850425,
+      "siToR_AdultRate": 0.00859118850425,
+      "siToR_ElderlyRate": 0.00859118850425,
+      "siToH_YoungRate": 0.0859118850425,
+      "siToH_AdultRate": 0.0859118850425,
+      "siToH_ElderlyRate": 0.0859118850425,
+      "siToD_YoungRate": 0.000859118850425,
+      "siToD_AdultRate": 0.00859118850425,
+      "siToD_ElderlyRate": 0.0859118850425,
+      "hToR_YoungRate": 0.000859118850425,
+      "hToR_AdultRate": 0.000859118850425,
+      "hToR_ElderlyRate": 0.0859118850425,
+      "hToD_YoungRate": 0.000859118850425,
+      "hToD_AdultRate": 0.00859118850425,
+      "hToD_ElderlyRate": 0.0859118850425
+    },
+    "testing": {
+      "covid": {
+        "infectiousSensitivity": 0.786092602305,
+        "specificity": 1.0
+      }
+    },
+    "health": {
+      "deprivationIndex": {
+        "healthModifier": 0.5,
+        "averageHealthIndexPerCouncilArea": 0.4
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "data": {
+    "dir": "/mnt/TBFT5168",
+    "movement": {
+      "dir": "JSON_MOVEMENTS"
+    },
+    "seeding": {
+      "dir": "SEEDING",
+      "people-start-locations": "startlocations.csv",
+      "infectedSeeds": "infectedSeeds.csv",
+      "spatial-seeding-weights-file": "spatialSeedingGroupAttributes.csv"
+    },
+    "summarystat": {
+      "dir": "SUMMARYSTAT",
+      "area-hb-lookup": "OA_info_for_movement_model.csv"
+    },
+    "health": {
+      "dir": "HEALTH",
+      "healthIndex": "deprivationIndex.csv"
+    }
+  }
+}
