@@ -17,7 +17,7 @@
         <com.google.guava.version>26.0-jre</com.google.guava.version>
         <jdk.version>1.8</jdk.version>
         <jre.version>1.8</jre.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <mockito.version>2.21.0</mockito.version>
         <jayway.jsonpath.version>2.4.0</jayway.jsonpath.version>
         <commons.io.version>2.6</commons.io.version>
