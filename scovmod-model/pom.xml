@@ -20,7 +20,7 @@
         <junit.version>4.12</junit.version>
         <mockito.version>2.21.0</mockito.version>
         <jayway.jsonpath.version>2.4.0</jayway.jsonpath.version>
-        <commons.io.version>2.6</commons.io.version>
+        <commons.io.version>2.7</commons.io.version>
         <it.unimi.dsi.fastutil.version>8.2.1</it.unimi.dsi.fastutil.version>
         <org.apache.commons.collections.version>3.2.2</org.apache.commons.collections.version>
         <org.apache.commons.lang3.version>3.8</org.apache.commons.lang3.version>
