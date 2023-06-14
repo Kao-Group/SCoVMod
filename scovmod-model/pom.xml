@@ -14,7 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven-assembly-plugin.version>3.1.0</maven-assembly-plugin.version>
         <buildnumber-maven-plugin.version>1.2</buildnumber-maven-plugin.version>
-        <com.google.guava.version>26.0-jre</com.google.guava.version>
+        <com.google.guava.version>32.0.0-jre</com.google.guava.version>
         <jdk.version>1.8</jdk.version>
         <jre.version>1.8</jre.version>
         <junit.version>4.12</junit.version>
